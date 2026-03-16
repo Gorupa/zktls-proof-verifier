@@ -5,11 +5,8 @@ A lightweight web tool to inspect and verify zkTLS proof files directly in the b
 
 Upload a proof.json file and view its metadata such as server source, timestamp, and proof hash.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-zktls--proof-1a73e8?style=for-the-badge)](https://gorupa.github.io/zktls-proof-verifier/demo)
 
-🌐 Live Demo
-Try the tool online:
-
-https://gorupa.github.io/zktls-proof-verifier/
 
 🧠 Concept
 zkTLS (Zero-Knowledge TLS) allows proving that data was retrieved from a specific website
