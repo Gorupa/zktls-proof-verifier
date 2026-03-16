@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>zkTLS Proof Verifier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🔐 zkTLS Proof Verifier</h1>
+
+<p>Upload a zkTLS proof file and verify its integrity.</p>
+
+<input type="file" id="proofFile">
+
+<button onclick="verifyProof()">Verify Proof</button>
+
+<div class="result">
+<h2>Verification Result</h2>
+<pre id="output">Waiting for proof...</pre>
+</div>
+
+</div>
+
+<script src="verifier.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
